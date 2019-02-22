@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+  padding: auto
 }
 
 .App-logo {
@@ -21,6 +23,22 @@
 
 .App-link {
   color: #61dafb;
+}
+.Header{
+  min-height:150px !important;
+  width:100%; 
+  background-color: rgba(0, 0, 0,0.2);
+  margin-bottom: 6%;
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
+  z-index:2
+}
+.Footer{
+  min-height:150px !important;
+  width:100%; 
+  background-color: rgba(0, 0, 0,0.2);
+  margin-top: 2%;
 }
 
 @keyframes App-logo-spin {
